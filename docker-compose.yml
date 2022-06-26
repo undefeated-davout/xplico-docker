@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  xplico:
+    build: .
+    container_name: xplico
+    tty: true
+    ports:
+      - 9876:9876
+      - 30001:30001
